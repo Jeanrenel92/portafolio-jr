@@ -1,3 +1,4 @@
+import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import "../css/App.css";
 
@@ -6,7 +7,7 @@ function App() {
     <>
       <Navbar />
       <main>
-        <section id="inicio" aria-label="Inicio" />
+        <Hero />
         <section id="sobre-mi" aria-label="Sobre mí" />
         <section id="proyectos" aria-label="Proyectos" />
         <section id="contacto" aria-label="Contacto" />

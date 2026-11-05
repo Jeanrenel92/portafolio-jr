@@ -10,5 +10,7 @@ body {
   min-width: 320px;
   min-height: 100vh;
   margin: 0;
+  background-color: #e5e7eb;
+  color: #111827;
 }
 
