@@ -1,5 +1,6 @@
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
+import ProjectsSection from "./components/ProjectsSection";
 import "../css/App.css";
 
 function App() {
@@ -9,7 +10,7 @@ function App() {
       <main>
         <Hero />
         <section id="sobre-mi" aria-label="Sobre mí" />
-        <section id="proyectos" aria-label="Proyectos" />
+        <ProjectsSection />
         <section id="contacto" aria-label="Contacto" />
       </main>
     </>
